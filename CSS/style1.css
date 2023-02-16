@@ -1,0 +1,36 @@
+.image-section {
+  position: absolute;
+  left: 160px;
+  top: 40px;
+}
+
+.section2 {
+  position: absolute;
+  top: 172px;
+  left: 168px;
+  color: hsl(25, 97%, 53%);
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 14px;
+  width: 187px;
+  height: 46px;
+  background-color: hsl(216, 12%, 8%);
+  text-align: center;
+  line-height: 45px;
+  border-radius: 20px;
+}
+.content-part {
+  color: white;
+  position: absolute;
+  top: 239px;
+  left: 194px;
+  text-transform: capitalize;
+  font-size: 27px;
+  font-weight: 700;
+}
+.para2 {
+  position: absolute;
+  top: 288px;
+  left: 72px;
+  margin: 0;
+}

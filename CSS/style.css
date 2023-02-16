@@ -1,0 +1,106 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Overpass:wght@100;700&display=swap");
+
+body {
+  background-color: hsl(216, 12%, 8%);
+}
+
+.container {
+  background-color: hsl(213, 19%, 18%);
+  height: 400px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 130px;
+  border-radius: 5%;
+  position: relative;
+  font-family: "Overpass", sans-serif;
+}
+
+.img-section {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: hsl(216, 12%, 8%);
+  position: relative;
+  top: 22px;
+  left: 44px;
+}
+
+.icon {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.para {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: hsl(0, 0%, 100%);
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.para1 {
+  position: absolute;
+  top: 108px;
+  left: 50px;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-weight: 100;
+  margin-right: 60px;
+}
+
+.list {
+  position: absolute;
+  top: 195px;
+  left: 50px;
+}
+
+ul.number {
+  display: inline-flex;
+}
+
+ul li.number-list {
+  list-style: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: hsl(216, 12%, 8%);
+  margin: 5px;
+  text-align: center;
+  display: inline-block;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+ul li a.number-link {
+  color: white;
+  text-decoration: none;
+}
+
+.btn {
+  position: absolute;
+  top: 300px;
+  left: 90px;
+}
+
+button.btn-sumbit {
+  padding: 15px 110px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}

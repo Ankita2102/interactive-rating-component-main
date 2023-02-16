@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Overpass:wght@100;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script src="js/main.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="interactive">
+        <div class="img-section">
+          <img src="images/icon-star.svg" alt="star-icon" class="icon" />
+        </div>
+        <div class="content">
+          <p class="para">How did we do?</p>
+          <p class="para1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+            reprehenderit dolores commodi nostrum fugiat porro, eaque eius
+            aliquid perspiciatis delectus.!
+          </p>
+        </div>
+        <div class="list">
+          <ul class="number">
+            <li class="number-list"><a href="" class="number-link">1</a></li>
+            <li class="number-list"><a href="" class="number-link">2</a></li>
+            <li class="number-list"><a href="" class="number-link">3</a></li>
+            <li class="number-list"><a href="" class="number-link">4</a></li>
+            <li class="number-list"><a href="" class="number-link">5</a></li>
+          </ul>
+        </div>
+        <div class="btn">
+          <button
+            class="btn-sumbit"
+            id="mybtn"
+            onclick="window.location.href = 'file:///E:/interactive-rating-component-main/interactive-rating-component-main/index1.html';"
+          >
+            sumbit
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="jquery/jquery-3.6.3.js">
+          jQuery( document ).ready(function( $ ) {
+        //Use this inside your document ready jQuery
+        $(window).on('popstate', function() {
+            location.reload(true);
+        });
+      });
+    </script>
+  </body>
+</html>
